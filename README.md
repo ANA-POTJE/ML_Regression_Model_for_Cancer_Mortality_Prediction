@@ -48,8 +48,8 @@ P_RFR = criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf =
 The best performing model was the Random Forest Regression, with highest R-Squared value of 0.4660. Its
 Feature Importance table (top features) is presented below:
 
-  | Variable | Importance
---|----------|-----------
+n. | Variable | Importance
+---|----------|-----------
 1 | PctBachDeg25_Over | 0.32
 2 | incidenceRate | 0.22
 3 | avgDeathsPerYear | 0.05
