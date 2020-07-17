@@ -47,9 +47,9 @@ Random Forest Regression | Scikit-learn / RandomForestRegressor | P_RFR (below) 
 SVR | Scikit-learn / SVR | kernel = rbf, C = 0.5 | 262.18 | 0.4511
 
 
-P_DTR = criterion = mse, max_leaf_nodes = 100, max_depth = 6,min_samples_leaf = 20, min_samples_split = 3
+P_DTR : criterion = mse, max_leaf_nodes = 100, max_depth = 6,min_samples_leaf = 20, min_samples_split = 3
 
-P_RFR = criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5
+P_RFR : criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5
 
 # Best Model: Random Forest Regression
 Random Forest Regression had the highest R-Squared value (0.4660), its Top Features and SHAP analysis are below:
