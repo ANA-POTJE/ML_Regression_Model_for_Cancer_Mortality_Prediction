@@ -22,7 +22,7 @@ are described in the document “Capstone Project CausaLens - Ana Potje – APPE
 
 cancer_reg.csv : dataset used for model building.
 
-xxxxx.ipynb: the jupyter notebook containing code.
+XXXXXXXXXXXXXXXXXXXXXXXX.ipynb: the jupyter notebook containing code.
 
 This project is organized as follows:
 
@@ -34,12 +34,14 @@ The dataset was split in train (64% of the data), validation (16% of the data) a
 The metrics used to evaluate and compare the models were "L2 norm" and "R-Squared".
 
 The regression models used are below:
-Regression Model	Package / Class	Parameters	L2 Norm	R-Squared
-Linear Regression (baseline) 	Scikit-learn /  LinearRegression	default values	260.79	0.4257
-Decision Tree Regression
-	Scikit-learn /
-DecisionTreeRegressor, GridSearchCV
-	criterion = mse, max_depth = 6, max_leaf_nodes = 100, min_samples_leaf = 20, min_samples_split = 3	336.70	0.3233
+Regression Model	        Package / Class	                        Parameters	   L2 Norm	R-Squared
+-------------------------------------------------------------------------------------------------------- ---------
+Linear Regression (baseline) 	Scikit-learn / LinearRegression		default values	   	260.79	0.4257
+Decision Tree Regression	Scikit-learn / DecisionTreeRegressor, 	criterion = mse, 	336.70	0.3233
+				GridSearchCV				max_leaf_nodes = 100, 
+									max_depth = 6,
+									min_samples_leaf = 20, 
+									min_samples_split = 3	
 Random Forest Regression 
  	Scikit-learn / RandomForestRegressor, GridSearchCV
 	criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5	260.03	0.4660
