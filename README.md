@@ -24,7 +24,12 @@ cancer_reg.csv : dataset used for model building.
 
 XXXXXXXXXXXXXXXXXXXXXXXX.ipynb: the jupyter notebook containing code.
 
+"Capstone Project CausaLens - Ana Potje.pdf" : final report
+
+"Capstone Project CausaLens - Ana Potje - APPENDIX.pdf" : data dictionary
+
 SHAP_Analysis.png : image displayed in README.md file
+
 
 This project is organized as follows:
 
@@ -58,6 +63,11 @@ n. | Variable | Importance
 
 ![SHAP Analysis](https://github.com/ANA-POTJE/ML_Regression_Models_for_Cancer_Mortality_Prediction/blob/master/SHAP_Analysis.png)
 
+# CausaLens Best Model: XGBRegressor (0.470 R-Squared)
+CausaLens platform was run on the same dataset, data was split into Train (40%), Validation (20%), Test (20%) and Holdout (20%). The tool generated 69 models. The best score was achieved with model ensemble.XGBRegressor (0.470 R-Squared), using 13 features and the parameters: l1 = 0.00, l2 = 0.00, colsample_bytree = 0.50, gamma = 1.00, min_child_weight = 2.00, xgb_extras = {}, max_depth = 2.00, n_boosting_estimators = 145.00, learning_rate = 0.13 and subsample = 0.65.
 
+# Conclusion
+Comparing the metrics of models in scope, it can be concluded that the CausaLens model ensemble.XGBRegressor with the given set of parameters provides best predictions, R-Squared metric of 0.470. This metric is found to be better than the Random Forest Regression, the best of four prediction models considered in this project.
 
-
+The feature contribution to the top 20% of the CausaLens discovered models shows that IncidenceRate and PctBachDeg25_Over are the two most influential features – the same result that came from the Random Forest Regression model, therefore confirming the importance of these features for predicting the target DeathRate feature.
+Please refer to file “Capstone Project CausaLens - Ana Potje - APPENDIX.pdf” for data dictionary details.
