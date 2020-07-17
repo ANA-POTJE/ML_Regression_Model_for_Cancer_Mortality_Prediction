@@ -21,6 +21,7 @@ Estimates). This dataset contains 3,047 rows and 34 features for each of the US 
 are described in the document “Capstone Project CausaLens - Ana Potje – APPENDIX”.
 
 cancer_reg.csv : dataset used for model building.
+
 xxxxx.ipynb: the jupyter notebook containing code.
 
 This project is organized as follows:
