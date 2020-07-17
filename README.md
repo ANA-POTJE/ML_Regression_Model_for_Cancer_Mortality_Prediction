@@ -34,6 +34,12 @@ The dataset was split in train (64% of the data), validation (16% of the data) a
 The metrics used to evaluate and compare the models were "L2 norm" and "R-Squared".
 
 The regression models used are below:
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 Regression Model	        Package / Class	                        Parameters	   L2 Norm	R-Squared
 -------------------------------------------------------------------------------------------------------- ---------
 Linear Regression (baseline) 	Scikit-learn / LinearRegression		default values	   	260.79	0.4257
