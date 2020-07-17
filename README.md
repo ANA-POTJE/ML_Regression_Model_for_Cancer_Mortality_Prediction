@@ -26,4 +26,9 @@ xxxxx.ipynb: the jupyter notebook containing code.
 
 This project is organized as follows:
 
-# STEP 1: ...
+# STEP 1: Exploratory Data Analysis
+In order to deploy the best machine learning model to predict our target variable (TARGET_deathRate), the dataset must be initially prepared and unwanted issues removed. The following operations were then performed in a Jupyter Notebook (Python) environment: categorical features mapped to integer values; dropped some categorical features not required; filled in null values; removed Outliers and finally scaled the dataset.
+
+
+
+
