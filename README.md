@@ -24,6 +24,8 @@ cancer_reg.csv : dataset used for model building.
 
 XXXXXXXXXXXXXXXXXXXXXXXX.ipynb: the jupyter notebook containing code.
 
+SHAP_Analysis.png : image displayed in README.md file
+
 This project is organized as follows:
 
 # STEP 1: Exploratory Data Analysis
