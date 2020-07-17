@@ -39,22 +39,10 @@ Regression Model | Package / Class | Parameters | L2 Norm | R-Squared
 ---------------- | ----------------|------------|---------|----------
 Linear Regression (baseline) | Scikit-learn / LinearRegression | default values | 260.79 | 0.4257
 Decision Tree Regression | Scikit-learn / DecisionTreeRegressor | P1 | 336.70 | 0.3233
-
-
-
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-
-Random Forest Regression 
- 	Scikit-learn / RandomForestRegressor, GridSearchCV
-	criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5	260.03	0.4660
-SVR	Scikit-learn / 
-SVR	kernel = rbf, 
-C = 0.5	262.18	0.4511
-
+Random Forest Regression | Scikit-learn / RandomForestRegressor | P2 | 260.03 | 0.4660
+SVR | Scikit-learn / SVR | kernel = rbf, C = 0.5 | 262.18 | 0.4511
 
 P1 = criterion = mse, max_leaf_nodes = 100, max_depth = 6,min_samples_leaf = 20, min_samples_split = 3
+P2 = criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5
 
 
