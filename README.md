@@ -63,4 +63,7 @@ If you want to embed images, this is how you do it:
 
 
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 
