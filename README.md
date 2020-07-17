@@ -35,13 +35,25 @@ The dataset was split into train (64%), validation (16%) and test (20%). The reg
 Regression Model | Package / Class | Parameters | L2 Norm | R-Squared
 ---------------- | ----------------|------------|---------|----------
 Linear Regression (baseline) | Scikit-learn / LinearRegression | default values | 260.79 | 0.4257
-Decision Tree Regression | Scikit-learn / DecisionTreeRegressor | Param_DTR (see below) | 336.70 | 0.3233
-Random Forest Regression | Scikit-learn / RandomForestRegressor | Param_RFR (see below) | 260.03 | 0.4660
+Decision Tree Regression | Scikit-learn / DecisionTreeRegressor | P_DTR (below) | 336.70 | 0.3233
+Random Forest Regression | Scikit-learn / RandomForestRegressor | P_RFR (below) | 260.03 | 0.4660
 SVR | Scikit-learn / SVR | kernel = rbf, C = 0.5 | 262.18 | 0.4511
 
 
-Param_DTR = criterion = mse, max_leaf_nodes = 100, max_depth = 6,min_samples_leaf = 20, min_samples_split = 3
+P_DTR = criterion = mse, max_leaf_nodes = 100, max_depth = 6,min_samples_leaf = 20, min_samples_split = 3
 
-Param_RFR = criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5
+P_RFR = criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5
+
+# STEP 3: Best Model Analysis
+The best performing model was the Random Forest Regression, with highest R-Squared value of 0.4660. Its
+Feature Importance table (top features) is presented below:
+
+  | Variable | Importance
+--|----------|-----------
+1 | PctBachDeg25_Over | 0.32
+2 | incidenceRate | 0.22
+3 | avgDeathsPerYear | 0.05
+4 | medIncome | 0.04
+
 
 
