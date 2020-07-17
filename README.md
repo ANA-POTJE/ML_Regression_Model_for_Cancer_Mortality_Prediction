@@ -13,7 +13,7 @@ SHAP (SHapley Additive exPlanations) approach is to be used to explain the featu
 The best predicting model is then to be compared with "CausaLens ML Prediction Tool" to determine which model returns best
 prediction results as well as the most influential features used for the target prediction.
 
-Scope
+# Scope
 “Cancer Mortality Prediction in the US Counties” dataset was provided on the web page:
 https://data.world/nrippner/ols-regression-challenge . “TARGET_deathRate” – the target variable – is the mean
 per capita (100,000) of cancer mortalities per US county in the period between 2010 and 2016 (or 2013 Census
