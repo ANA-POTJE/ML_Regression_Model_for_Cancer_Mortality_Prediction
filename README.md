@@ -61,11 +61,10 @@ n. | Variable | Importance
 
 If you want to embed images, this is how you do it:
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![SHAP Analysis](https://github.com/ANA-POTJE/ML_Regression_Models_for_Cancer_Mortality_Prediction/blob/master/SHAP_Analysis.png)
 
 
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+!(https://github.com/ANA-POTJE/ML_Regression_Models_for_Cancer_Mortality_Prediction/blob/master/SHAP_Analysis.png)
 
 
