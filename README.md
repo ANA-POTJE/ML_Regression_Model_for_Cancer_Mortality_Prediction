@@ -22,7 +22,7 @@ are described in the document “Capstone Project CausaLens - Ana Potje – APPE
 
 cancer_reg.csv : dataset used for model building.
 
-XXXXXXXXXXXXXXXXXXXXXXXX.ipynb: the jupyter notebook containing code.
+cancer_reg.ipynb : the jupyter notebook containing code.
 
 "Capstone Project CausaLens - Ana Potje.pdf" : final report
 
