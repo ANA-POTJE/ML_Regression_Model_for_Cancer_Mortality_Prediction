@@ -35,19 +35,21 @@ The metrics used to evaluate and compare the models were "L2 norm" and "R-Square
 
 The regression models used are below:
 
-First Header | Second Header
------------- | -------------
+Regression Model | Package / Class | Parameters | L2 Norm | R-Squared
+---------------- | ----------------|------------|---------|----------
+
+
+
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 Regression Model	        Package / Class	                        Parameters	   L2 Norm	R-Squared
 -------------------------------------------------------------------------------------------------------- ---------
-Linear Regression (baseline) 	Scikit-learn / LinearRegression		default values	   	260.79	0.4257
-Decision Tree Regression	Scikit-learn / DecisionTreeRegressor, 	criterion = mse, 	336.70	0.3233
-				GridSearchCV				max_leaf_nodes = 100, 
-									max_depth = 6,
-									min_samples_leaf = 20, 
-									min_samples_split = 3	
+Linear Regression (baseline) | Scikit-learn / LinearRegression | default values | 260.79 | 0.4257
+Decision Tree Regression | Scikit-learn / DecisionTreeRegressor | criterion = mse, max_leaf_nodes = 100, max_depth = 6,min_samples_leaf = 20, min_samples_split = 3 | 336.70 | 	0.3233
+
+
+
 Random Forest Regression 
  	Scikit-learn / RandomForestRegressor, GridSearchCV
 	criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5	260.03	0.4660
