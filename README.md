@@ -58,13 +58,8 @@ n. | Variable | Importance
 3 | avgDeathsPerYear | 0.05
 4 | medIncome | 0.04
 
-
-If you want to embed images, this is how you do it:
-
 ![SHAP Analysis](https://github.com/ANA-POTJE/ML_Regression_Models_for_Cancer_Mortality_Prediction/blob/master/SHAP_Analysis.png)
 
 
-
-!(https://github.com/ANA-POTJE/ML_Regression_Models_for_Cancer_Mortality_Prediction/blob/master/SHAP_Analysis.png)
 
 
