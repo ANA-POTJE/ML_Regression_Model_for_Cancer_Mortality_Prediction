@@ -30,7 +30,7 @@ This project is organized as follows:
 In order to deploy the best machine learning model to predict our target variable (TARGET_deathRate), the dataset was prepared and unwanted issues removed. The following operations were then performed in a Jupyter Notebook (Python) environment: categorical features mapped to integer values; dropped some categorical features not required; filled in null values; removed Outliers and finally scaled the dataset.
 
 # STEP 2: Train, Test & Evaluate the Data
-The dataset was split in train (64% of the data), validation (16% of the data) and test subsets (20% of the data). The regression models used are below:
+The dataset was split into train (64%), validation (16%) and test (20%). The regression models used are below:
 
 Regression Model | Package / Class | Parameters | L2 Norm | R-Squared
 ---------------- | ----------------|------------|---------|----------
