@@ -44,7 +44,7 @@ P_DTR = criterion = mse, max_leaf_nodes = 100, max_depth = 6,min_samples_leaf = 
 
 P_RFR = criterion = mse, max_depth = 8, max_leaf_nodes = 100, min_samples_leaf = 10, min_samples_leaf = 5
 
-# STEP 3: Best Model = Random Forest Regression
+# Best Model: Random Forest Regression
 Random Forest Regression had the highest R-Squared value (0.4660). 
 
 Its Feature Importance table (top features) is below:
