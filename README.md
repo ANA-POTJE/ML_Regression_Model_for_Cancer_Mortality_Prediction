@@ -1,4 +1,4 @@
-# ML_Regression_Models_for_Cancer_Mortality_Prediction
+# ML_Regression_Model_for_Cancer_Prediction
 CAPSTONE PROJECT
 
 APPLIED DATA SCIENCE BOOTCAMP - CAMBRIDGE SPARK
